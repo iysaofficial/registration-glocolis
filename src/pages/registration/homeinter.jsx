@@ -1,7 +1,7 @@
 import {
   internationalOfflineTerms,
   internationalOnlineTerms,
-} from "../lib/data/terms";
+} from "@/lib/data/terms";
 import { useState, useEffect } from "react";
 
 function HomeInter() {
