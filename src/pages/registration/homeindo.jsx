@@ -38,22 +38,22 @@ function HomeIndo() {
           <div className="wrapper">
             <div className="text-center">
               <h1 className="mx-auto text-sm md:text-lg lg:text-5xl">
-                FORMULIR REGISTRASI
+                FORMULIR REGISTRASI UNTUK PESERTA INDONESIA
               </h1>
-              <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
+              {/* <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
                 Pilih Kategori Kompetisi untuk Registrasi GLOCOLIS 2025
-              </h3>
+              </h3> */}
             </div>
           </div>
           <div className="link-web mx-auto text-center">
             <a
-              className="btn btn-action text-center me-lg-5 "
+              className="btn btn-regist text-center me-lg-5 "
               onClick={() => handleOpenModal("/registration/indo-online", indonesiaOnlineTerms)}
             >
               Kompetisi Online{" "}<i className="fa-solid fa-earth-americas"></i>
             </a>
             {/* <a
-              className="btn btn-action text-center me-lg-5 "
+              className="btn btn-regist text-center me-lg-5 "
               onClick={() => handleOpenModal("/registration/indo-offline", indonesiaOfflineTerms)}
             >
               Kompetisi Offline{" "}<i className="fa-solid fa-earth-americas"></i>

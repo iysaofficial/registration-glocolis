@@ -1,10 +1,10 @@
-/* :root {
+:root {
     --warna-primary: #769692;
-    --warna-sekunder: #198754;
+    --warna-sekunder: #4da6e7;
     --warna-tulisan: #fff;
     --warna-tulisan2: #212529;
     --font-family: "Kanit", sans-serif;
-  } */
+  }
 
   .text-align {
     text-align: justify;
@@ -83,9 +83,8 @@
   }
   
   .btn-regist:hover {
-    color: var(--warna-tulisan2) !important;
-    /* background-color: linear-gradient(to right, #198754 50%, #fefefe 150%); */
-    background-color: #198754;
+    color: var(--warna-tulisan) !important;
+    background-color: var(--warna-sekunder);
     font-size: 1.1rem;
   }
   

@@ -26,13 +26,13 @@ export default function Home() {
           </div>
           <div className="link-web mx-auto text-center">
             <Link href="/registration/homeindo" legacyBehavior>
-            <a className="btn-regist btn-action text-center me-lg-5 m-2">
+            <a className="btn-regist   text-center me-lg-5 m-2">
               Indonesia Participant{" "}
               <i className="fa-solid fa-earth-americas"></i>
             </a>
             </Link>
             <Link href="/registration/homeinter" legacyBehavior>
-            <a className="btn-regist btn-action text-center me-lg-5 m-2">
+            <a className="btn-regist   text-center me-lg-5 m-2">
               International Participant{" "}
               <i className="fa-solid fa-earth-americas"></i>
             </a>

@@ -42,14 +42,14 @@ function HomeInter() {
               <h1 className="mx-auto text-sm md:text-lg lg:text-5xl">
                 REGISTRATION FORM FOR INTERNATIONAL PARTICIPANTS
               </h1>
-              <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
+              {/* <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
                 Choose Categories Competition for Registration GLOCOLIS 2025
-              </h3>
+              </h3> */}
             </div>
           </div>
           <div className="link-web mx-auto text-center">
             <a
-              className="btn btn-action text-center me-lg-5"
+              className="btn btn-regist text-center me-lg-5"
               onClick={() =>
                 handleOpenModal("/registration/inter-online", internationalOnlineTerms)
               }
@@ -57,7 +57,7 @@ function HomeInter() {
               Online Competition <i className="fa-solid fa-earth-americas"></i>
             </a>
             {/* <a
-              className="btn btn-action text-center me-lg-5"
+              className="btn btn-regist text-center me-lg-5"
               onClick={() =>
                 handleOpenModal("/registration/inter-offline", internationalOfflineTerms)
               }
