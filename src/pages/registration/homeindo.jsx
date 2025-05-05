@@ -1,7 +1,6 @@
 import { indonesiaOnlineTerms, indonesiaOfflineTerms } from "@/lib/data/terms";
 import { useState, useEffect } from "react";
 
-
 function HomeIndo() {
   const [showModal, setShowModal] = useState(false);
   const [termsAccepted, setTermsAccepted] = useState(false);
@@ -20,10 +19,10 @@ function HomeIndo() {
       setShowModal(false);
       window.location.href = redirectLink;
     } else {
-      alert("Harap setujui Syarat & Ketentuan untuk melanjutkan.");
+      alert("Please agree to the Terms & Conditions to proceed.");
     }
   };
-  
+
   useEffect(() => {
     const hasAcceptedTerms = sessionStorage.getItem("termsAccepted");
     if (hasAcceptedTerms === "true") {
@@ -38,19 +37,24 @@ function HomeIndo() {
           <div className="wrapper">
             <div className="text-center">
               <h1 className="mx-auto text-sm md:text-lg lg:text-5xl">
-                FORMULIR REGISTRASI UNTUK PESERTA INDONESIA
+                REGISTRATION FORM FOR INDONESIA PARTICIPANTS
               </h1>
               {/* <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
-                Pilih Kategori Kompetisi untuk Registrasi GLOCOLIS 2025
+                Choose Categories Competition for Registration GLOCOLIS 2025
               </h3> */}
             </div>
           </div>
           <div className="link-web mx-auto text-center">
             <a
               className="btn btn-regist text-center me-lg-5 "
-              onClick={() => handleOpenModal("/registration/indo-online", indonesiaOnlineTerms)}
+              onClick={() =>
+                handleOpenModal(
+                  "/registration/indo-online",
+                  indonesiaOnlineTerms
+                )
+              }
             >
-              Kompetisi Online{" "}<i className="fa-solid fa-earth-americas"></i>
+              Online Competition <i className="fa-solid fa-earth-americas"></i>
             </a>
             {/* <a
               className="btn btn-regist text-center me-lg-5 "
@@ -65,7 +69,7 @@ function HomeIndo() {
       {showModal && (
         <div className="modal-overlay">
           <div className="modal-content">
-            <h2 className="text-4xl">Syarat & Ketentuan</h2>
+            <h2 className="text-4xl">Term & Conditions</h2>
             <div>{termsContent}</div> {/* Isi dinamis */}
             <div className="checkbox mt-2">
               <input
@@ -74,17 +78,20 @@ function HomeIndo() {
                 checked={termsAccepted}
                 onChange={(e) => setTermsAccepted(e.target.checked)}
               />
-              <label htmlFor="terms"> Saya menyetujui Syarat & Ketentuan di atas</label>
+              <label htmlFor="terms">
+                {" "}
+                I agree to the Term & Conditions
+              </label>
             </div>
             <div className="modal-actions">
               <button
                 className="btn btn-secondary"
                 onClick={() => setShowModal(false)}
               >
-                Kembali
+                Cancel
               </button>
               <button className="btn btn-primary" onClick={handleAccept}>
-                Terima & Proses
+                Accept & Proceed
               </button>
             </div>
           </div>

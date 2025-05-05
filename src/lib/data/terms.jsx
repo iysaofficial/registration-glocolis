@@ -1,91 +1,87 @@
 export const indonesiaOnlineTerms = (
   <>
     <h5>
-      Sebelum melanjutkan, harap membaca dan menyetujui syarat & ketentuan
-      berikut untuk Peserta Online:
+      Before proceeding, please read and agree to the following terms &
+      conditions for Online Participants:
     </h5>
-    {/* <h1 className="">Peserta Online:</h1> */}
     <ul>
       <li>
-        Peserta yang tidak mengumpulkan dokumen persyaratan (<em>extended abstract</em>, 
-        <em> PowerPoint</em>) setelah dua kali pengingat akan dianggap mengundurkan diri 
-        secara otomatis.
+        Participants who do not submit the required documents (extended
+        abstract, PowerPoint) after two reminders will be considered to have
+        withdrawn automatically.
       </li>
       <li>
-        Peserta wajib menggunakan judul dan <em>extended abstract</em> yang sesuai dengan 
-        kategori yang diikuti. (Peserta internasional, wajib menggunakan bahasa Inggris untuk 
-        seluruh persyaratan dokumen yang dibutuhkan)
+        Participants must use a title and extended abstract that match the
+        selected category. (International participants must use English for all
+        required documents.)
       </li>
       <li>
-        Keputusan panitia terkait hal ini bersifat final dan tidak dapat
-        diganggu gugat.
+        The committee’s decision on this matter is final and cannot be
+        contested.
       </li>
     </ul>
     <p className="text-align">
-      Selain itu, kami informasikan bahwa setiap event akan kami daftarkan ke
-      kurasi SIM T Puspresnas.
+      Additionally, we inform you that each event will be registered for
+      curation by SIM T Puspresnas.
     </p>
     <p className="text-align">
-      Namun, hasil kurasi sepenuhnya merupakan wewenang Puspresnas dan tidak
-      dapat diganggu gugat oleh pihak manapun. Oleh sebab itu, kami tidak
-      menerima sanggahan maupun komplain terkait hasil kurasi yang telah
-      ditetapkan oleh Puspresnas.
+      However, the curation results are fully under the authority of Puspresnas
+      and cannot be contested by any party. Therefore, we do not accept
+      objections or complaints regarding the results determined by Puspresnas.
     </p>
   </>
 );
 
-
 export const indonesiaOfflineTerms = (
   <>
     <h5>
-      Sebelum melanjutkan, harap membaca dan menyetujui syarat & ketentuan
-      berikut untuk Peserta Offline:
+      Before proceeding, please read and agree to the following terms &
+      conditions for Offline Participants:
     </h5>
     <ul>
       <li>
-        Peserta yang tidak mengumpulkan berkas persyaratan (<em>extended abstract</em>,
-        <em> poster</em>) setelah dua kali pengingat akan dianggap mengundurkan diri
-        secara otomatis.
+        Participants who do not submit the required documents (extended
+        abstract, poster) after two reminders will be considered to have
+        withdrawn automatically.
       </li>
       <li>
-        Peserta wajib menggunakan judul dan <em>extended abstract</em> yang sesuai dengan
-        kategori yang diikuti. (Peserta internasional, wajib menggunakan bahasa
-        Inggris untuk seluruh <em>requirement</em>)
+        Participants must use a title and extended abstract that match the
+        selected category. (International participants must use English for all
+        requirements.)
       </li>
       <li>
-        Peserta diwajibkan untuk membuat poster berukuran A0, membawa produk,
-        dan juga <em>paper</em>/<em>extended abstract</em> (dalam bentuk <em>hard copy</em>) pada saat sesi
-        penjurian.
+        Participants are required to create a poster in A0 size, bring their
+        product, and also provide a paper/extended abstract (in hard copy)
+        during the judging session.
       </li>
       <li>
-        Pemberian penghargaan kepada peserta akan dilakukan sesuai dengan urutan
-        yang telah ditetapkan dalam susunan acara (peserta tidak diperkenankan
-        untuk meminta <em>award</em> sebelum gilirannya).
+        Awards will be presented to participants according to the sequence set
+        in the event schedule (participants are not allowed to request their
+        award before their turn).
       </li>
       <li>
-        Peserta diwajibkan untuk mengikuti seluruh rangkaian kegiatan sesuai
-        dengan jadwal yang telah disusun oleh panitia penyelenggara.
+        Participants are required to attend the entire event series according to
+        the schedule prepared by the organizing committee.
       </li>
       <li>
-        Bagi peserta offline yang berhak atas hadiah <em>Best Booth</em>, <em>Best Poster</em>,
-        <em> Best Presentation</em>, <em>Best Project</em>, uang tunai, <em>Semi Grand Award</em>, dan 
-        <em>Grand Award</em> namun tidak dapat hadir pada acara penyerahan hadiah, maka hadiah
-        yang bersangkutan dinyatakan hangus.
+        For offline participants eligible for awards such as Best Booth, Best
+        Poster, Best Presentation, Best Project, cash prizes, Semi Grand Award,
+        and Grand Award but are unable to attend the awarding ceremony, the
+        respective prize will be forfeited.
       </li>
       <li>
-        Keputusan panitia terkait hal ini bersifat final dan tidak dapat
-        diganggu gugat.
+        The committee’s decision on this matter is final and cannot be
+        contested.
       </li>
     </ul>
     <p className="text-align">
-      Selain itu, kami informasikan bahwa setiap event akan kami daftarkan ke
-      kurasi SIM T Puspresnas.
+      Additionally, we inform you that each event will be registered for
+      curation by SIM T Puspresnas.
     </p>
     <p className="text-align">
-      Namun, hasil kurasi sepenuhnya merupakan wewenang Puspresnas dan tidak
-      dapat diganggu gugat oleh pihak manapun. Oleh sebab itu, kami tidak
-      menerima sanggahan maupun komplain terkait hasil kurasi yang telah
-      ditetapkan oleh Puspresnas.
+      However, the curation results are fully under the authority of Puspresnas
+      and cannot be contested by any party. Therefore, we do not accept
+      objections or complaints regarding the results determined by Puspresnas.
     </p>
   </>
 );
@@ -138,8 +134,8 @@ export const internationalOfflineTerms = (
     </li>
     <li>
       For offline participants who are entitled to the Best booth, Best Poster,
-      Best Presentation, Best Project, cash, semi grand award, and grand award
-      prizes but cannot attend the prize distribution ceremony, the prizes
+      Best Presentation, Best Project, cash prize, semi grand award, and grand
+      award prizes but cannot attend the prize distribution ceremony, the prizes
       concerned will be declared forfeited.
     </li>
     <li>
