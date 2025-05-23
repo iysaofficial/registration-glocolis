@@ -56,12 +56,12 @@ function HomeIndo() {
             >
               Online Competition <i className="fa-solid fa-earth-americas"></i>
             </a>
-            {/* <a
+            <a
               className="btn btn-regist text-center me-lg-5 "
               onClick={() => handleOpenModal("/registration/indo-offline", indonesiaOfflineTerms)}
             >
-              Kompetisi Offline{" "}<i className="fa-solid fa-earth-americas"></i>
-            </a> */}
+              Offline Competition <i className="fa-solid fa-earth-americas"></i>
+            </a>
           </div>
         </div>
       </section>

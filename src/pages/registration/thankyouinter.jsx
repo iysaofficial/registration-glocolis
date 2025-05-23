@@ -54,7 +54,7 @@ function Thankyouinter() {
           </strong>
         </p>
         <Link href="/"legacyBehavior>
-          <a className="btn btn-action">
+          <a className="btn btn-regist">
             Back to Registration Menu
           </a>
         </Link>

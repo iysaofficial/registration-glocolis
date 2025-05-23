@@ -56,14 +56,14 @@ function HomeInter() {
             >
               Online Competition <i className="fa-solid fa-earth-americas"></i>
             </a>
-            {/* <a
+            <a
               className="btn btn-regist text-center me-lg-5"
               onClick={() =>
                 handleOpenModal("/registration/inter-offline", internationalOfflineTerms)
               }
             >
               Offline Competition <i className="fa-solid fa-earth-americas"></i>
-            </a> */}
+            </a>
           </div>
         </div>
       </section>

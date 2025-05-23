@@ -66,7 +66,7 @@ export default function InternationalOffline() {
   }, [navigate]);
 
   const scriptURL =
-    "";
+    "https://script.google.com/macros/s/AKfycbz2d12wWSZqKn6rapzMIBzFwLj5M0A5yYtr7Lxj8RFVLm96oul8zLSjofUGdHjXmVOxNQ/exec";
 
     useEffect(() => {
       const form = document.forms["regist-form"];
@@ -453,13 +453,8 @@ export default function InternationalOffline() {
                     required
                   >
                     <option value="">--Choose Your Grade--</option>
-                    <option value="Elementery">Elementery</option>
-                    <option value="Junior High School">
-                      Junior High School
-                    </option>
-                    <option value="Senior High School">
-                      Senior High School
-                    </option>
+                    <option value="Elementary">Elementary</option>
+                    <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
                   </select>
                 </div>
@@ -660,13 +655,13 @@ export default function InternationalOffline() {
                     <option value="">
                       --Select the Source of Information--
                     </option>
+                    <option value="GLOCOLIS Website">GLOCOLIS Website</option>
+                    <option value="IYSA Website">IYSA Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
                     <option value="GLOCOLIS Instagram">GLOCOLIS Instagram</option>
                     <option value="Supervisor/School">Supervisor/School</option>
                     <option value="IYSA Facebook">IYSA Facebook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
-                    <option value="IYSA Website">IYSA Website</option>
-                    <option value="GLOCOLIS Website">GLOCOLIS Website</option>
                     <option value="IYSA Email">IYSA Email</option>
                     <option value="GLOCOLIS Email">GLOCOLIS Email</option>
                     <option value="Previous Event">Previous Event</option>

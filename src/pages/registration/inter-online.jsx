@@ -70,7 +70,7 @@ export default function InternationalOnline() {
   }, [navigate]);
 
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbywrAbVfbG_j-MfNkFynCdAmM90FBwvnhItuiKC2i1cfQErtlkOxJLhe1RF_GegDNEIwQ/exec";
+    "https://script.google.com/macros/s/AKfycbyJ8SRt6Z3JbqUvtMBBaKD9fVnfhhk5vB6xz_6hosUP5VILFjc1Nhf8j7MjjxDxmvy0gg/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -464,12 +464,7 @@ export default function InternationalOnline() {
                   >
                     <option value="">--Choose Your Grade--</option>
                     <option value="Elementery">Elementery</option>
-                    <option value="Junior High School">
-                      Junior High School
-                    </option>
-                    <option value="Senior High School">
-                      Senior High School
-                    </option>
+                    <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
                   </select>
                 </div>
