@@ -665,7 +665,7 @@ export default function InternationalOffline() {
                     <option value="IYSA Email">IYSA Email</option>
                     <option value="GLOCOLIS Email">GLOCOLIS Email</option>
                     <option value="Previous Event">Previous Event</option>
-                    <option value="Others">Lainnya</option>
+                    <option value="Others">Others</option>
                   </select>
                 </div>
               </div>

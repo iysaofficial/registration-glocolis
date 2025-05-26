@@ -52,7 +52,8 @@ function IndonesiaOffline() {
     }
   }, [router]);
 
-  const scriptURL = "https://script.google.com/macros/s/AKfycbwK3-0TDYMuekqqtYSwebx-qEcZchOoWP_JElopO9-k9b9G3YquOPHPe8AAfa94sjoZHg/exec";
+  const scriptURL =
+    "https://script.google.com/macros/s/AKfycbwK3-0TDYMuekqqtYSwebx-qEcZchOoWP_JElopO9-k9b9G3YquOPHPe8AAfa94sjoZHg/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -106,7 +107,13 @@ function IndonesiaOffline() {
         form.reset();
         setTimeout(() => {
           router.push(
-            `/registration/thankyouinter?namaLengkap=${encodeURIComponent(selectedMaxNamaLengkap)}&projectTitle=${encodeURIComponent(selectedMaxProject)}&category=${encodeURIComponent(selectedCategory)}&namasekolah=${encodeURIComponent(selectedNamaSekolah)}`
+            `/registration/thankyouinter?namaLengkap=${encodeURIComponent(
+              selectedMaxNamaLengkap
+            )}&projectTitle=${encodeURIComponent(
+              selectedMaxProject
+            )}&category=${encodeURIComponent(
+              selectedCategory
+            )}&namasekolah=${encodeURIComponent(selectedNamaSekolah)}`
           );
         }, 1000);
       } else {
@@ -129,17 +136,27 @@ function IndonesiaOffline() {
             <br />
             <br />
             <h4 className="text-xl">
-              HELLO GLOCOLIS 2025 PARTICIPANTS, Please pay attention to the following information before filling out the registration form:
+              HELLO GLOCOLIS 2025 PARTICIPANTS, Please pay attention to the
+              following information before filling out the registration form:
             </h4>
             <br />
             <p>
-              1. Please fill in the required data correctly and make sure there are no typos. Also ensure that the submitted data is final and will not be changed.
+              1. Please fill in the required data correctly and make sure there
+              are no typos. Also ensure that the submitted data is final and
+              will not be changed.
             </p>
             <p>
-              2. After making sure the data is correct, you can click the <span className="fw-bold">"SUBMIT FORM"</span> button only once. If the data is successfully sent, you will be redirected to another page.
+              2. After making sure the data is correct, you can click the{" "}
+              <span className="fw-bold">"SUBMIT FORM"</span> button only once.
+              If the data is successfully sent, you will be redirected to
+              another page.
             </p>
             <p>
-              3. There will be an email notification that your registration has been received, sent to the team leader's email address, and the documents will be validated by our team. Please be patient and wait up to 3 days after registration, the Letter of Acceptance (LOA) will be sent to the team leader's email address.
+              3. There will be an email notification that your registration has
+              been received, sent to the team leader's email address, and the
+              documents will be validated by our team. Please be patient and
+              wait up to 3 days after registration, the Letter of Acceptance
+              (LOA) will be sent to the team leader's email address.
             </p>
             <br />
             {showModal && (
@@ -147,7 +164,8 @@ function IndonesiaOffline() {
                 <div className="modal-submit text-lg-center text-md-center">
                   <h2 className="text-center">⚠️ATTENTION!</h2>
                   <p>
-                    The submitted data cannot be changed. The committee will use the last data received for certificate printing.
+                    The submitted data cannot be changed. The committee will use
+                    the last data received for certificate printing.
                     <br />
                     <b>MAKE SURE ALL DATA IS CORRECT!</b>
                     <br />
@@ -206,8 +224,8 @@ function IndonesiaOffline() {
                     <option value="Global Competition for Life Sciences - Offline Competition">
                       Offline Competition
                     </option>
-                    <option value="Global Competition for Life Sciences - Offline Competition Full Package">
-                      Offline Competition Full Package
+                    <option value="Global Competition for Life Sciences - Offline Competition + Excursion">
+                      Offline Competition + Excursion
                     </option>
                   </select>
                 </div>
@@ -220,7 +238,8 @@ function IndonesiaOffline() {
                   </label>
                   <label>
                     <p>
-                      Enter the team leader and members' names, starting with the team leader, in the following format:
+                      Enter the team leader and members' names, starting with
+                      the team leader, in the following format:
                     </p>
                     <p>Note: maximum 5 members + 1 team leader</p>
                     <h6>Kamal Putra</h6>
@@ -247,10 +266,12 @@ function IndonesiaOffline() {
                   </label>
                   <label>
                     <p>
-                      Please write with country code, example: (country code) (phone number) +62 81770914xxxx
+                      Please write with country code, example: (country code)
+                      (phone number) +62 81770914xxxx
                     </p>
                     <p>
-                      Notes: Please enter the correct team leader's number, to be added to the group
+                      Notes: Please enter the correct team leader's number, to
+                      be added to the group
                     </p>
                   </label>
                   <input
@@ -268,7 +289,8 @@ function IndonesiaOffline() {
                   </label>
                   <label>
                     <p>
-                      Notes: Please enter the correct email, the LOA will be sent to the team leader's email address provided.
+                      Notes: Please enter the correct email, the LOA will be
+                      sent to the team leader's email address provided.
                     </p>
                   </label>
                   <input
@@ -286,7 +308,8 @@ function IndonesiaOffline() {
                   </label>
                   <label>
                     <p>
-                      Notes: Enter NISN / NIM in the same order as the team leader and members' names, in the following format:
+                      Notes: Enter NISN / NIM in the same order as the team
+                      leader and members' names, in the following format:
                     </p>
                     <h6>231700</h6>
                     <h6>241700</h6>
@@ -313,7 +336,8 @@ function IndonesiaOffline() {
                   </label>
                   <label>
                     <p>
-                      Notes: Enter the school name in the same order as the team leader and members' names, in the following format:
+                      Notes: Enter the school name in the same order as the team
+                      leader and members' names, in the following format:
                     </p>
                     <h6>SMA CERIA</h6>
                     <h6>SMA BAHAGIA</h6>
@@ -335,11 +359,13 @@ function IndonesiaOffline() {
                 </div>
                 <div className="input-box">
                   <label htmlFor="NPSN" className="form-label">
-                    National School Identification Number (NPSN)
+                    Nomor Pokok Sekolah Nasional (NPSN)
                   </label>
                   <label>
                     <p>
-                      Notes: Enter NPSN if still in school, in the same order as the team leader and members' names, in the following format:
+                      Notes: Enter NPSN if still in school, in the same order as
+                      the team leader and members' names, in the following
+                      format:
                     </p>
                     <h6>1201301</h6>
                     <h6>1302402</h6>
@@ -349,12 +375,12 @@ function IndonesiaOffline() {
                     id="NPSN"
                     name="NPSN"
                     className="form-control"
-                    placeholder="Enter National School Identification Number (NPSN)"
+                    placeholder="Input Nomor Pokok Sekolah Nasional (NPSN)"
                   ></textarea>
                 </div>
                 <div className="input-box">
                   <label htmlFor="GRADE" className="form-label">
-                    Education Level
+                    Grade
                   </label>
                   <select
                     id="GRADE"
@@ -363,7 +389,7 @@ function IndonesiaOffline() {
                     placeholder="Choose Grade"
                     required
                   >
-                    <option value="">--Select Your Education Level--</option>
+                    <option value="">--Choose Grade--</option>
                     <option value="Elementary">Elementary</option>
                     <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
@@ -386,7 +412,9 @@ function IndonesiaOffline() {
               {/* SCHOOL DATA END */}
 
               {/* SUPERVISOR DATA START */}
-              <h1 className="text-sm md:text-lg lg:text-5xl">SUPERVISOR DATA</h1>
+              <h1 className="text-sm md:text-lg lg:text-5xl">
+                SUPERVISOR DATA
+              </h1>
               <h1 className="garis-bawah"></h1>
               <div className="user-details">
                 <div className="input-box">
@@ -402,12 +430,16 @@ function IndonesiaOffline() {
                   ></textarea>
                 </div>
                 <div className="input-box">
-                  <label htmlFor="WHATSAPP_NUMBER_SUPERVISOR" className="form-label">
+                  <label
+                    htmlFor="WHATSAPP_NUMBER_SUPERVISOR"
+                    className="form-label"
+                  >
                     Supervisor/Teacher WhatsApp Number
                   </label>
                   <label>
                     <p>
-                      Please write with country code, example: (country code) (phone number) +62 81770914xxx
+                      Please write with country code, example: (country code)
+                      (phone number) +62 81770914xxx
                     </p>
                   </label>
                   <input
@@ -420,7 +452,10 @@ function IndonesiaOffline() {
                   />
                 </div>
                 <div className="input-box">
-                  <label htmlFor="EMAIL_TEACHER_SUPERVISOR" className="form-label">
+                  <label
+                    htmlFor="EMAIL_TEACHER_SUPERVISOR"
+                    className="form-label"
+                  >
                     Supervisor/Teacher Email Address
                   </label>
                   <input
@@ -437,7 +472,9 @@ function IndonesiaOffline() {
 
               {/* PROJECT DETAILS START */}
               <div className="">
-                <h1 className="text-sm md:text-lg lg:text-5xl">PROJECT DETAILS</h1>
+                <h1 className="text-sm md:text-lg lg:text-5xl">
+                  PROJECT DETAILS
+                </h1>
                 <h1 className="garis-bawah"></h1>
               </div>
               <div className="user-details">
@@ -447,7 +484,8 @@ function IndonesiaOffline() {
                   </label>
                   <label>
                     <p>
-                      Notes: Please fill in the project title CORRECTLY, the submitted data cannot be changed!
+                      Notes: Please fill in the project title CORRECTLY, the
+                      submitted data cannot be changed!
                     </p>
                   </label>
                   <textarea
@@ -480,13 +518,16 @@ function IndonesiaOffline() {
                     <option value="Biomedicine">Biomedicine</option>
                     <option value="Food Technology">Food Technology</option>
                     <option value="Biotechnology">Biotechnology</option>
-                    <option value="Food Science and Nutrition">Food Science and Nutrition</option>
+                    <option value="Food Science and Nutrition">
+                      Food Science and Nutrition
+                    </option>
                     <option value="Pharmacy">Pharmacy</option>
                   </select>
                 </div>
                 <div className="input-box">
                   <label htmlFor="YES_NO" className="form-label">
-                    Has the project title ever participated in previous invention and innovation competitions?
+                    Has the project title ever participated in previous
+                    invention and innovation competitions?
                   </label>
                   <select
                     id="YES_NO"
@@ -501,8 +542,12 @@ function IndonesiaOffline() {
                   </select>
                 </div>
                 <div className="input-box">
-                  <label htmlFor="JUDUL_PERNAH_BERPATISIPASI" className="form-label">
-                    If the project title has participated in other invention and innovation competitions, please write the competition name
+                  <label
+                    htmlFor="JUDUL_PERNAH_BERPATISIPASI"
+                    className="form-label"
+                  >
+                    If the project title has participated in other invention and
+                    innovation competitions, please write the competition name
                   </label>
                   <textarea
                     id="JUDUL_PERNAH_BERPATISIPASI"
@@ -517,7 +562,9 @@ function IndonesiaOffline() {
 
               {/* GENERAL INFORMATION START */}
               <div className="">
-                <h1 className="text-sm md:text-lg lg:text-5xl">GENERAL INFORMATION</h1>
+                <h1 className="text-sm md:text-lg lg:text-5xl">
+                  GENERAL INFORMATION
+                </h1>
                 <h1 className="garis-bawah"></h1>
               </div>
               <div className="user-details">
@@ -527,7 +574,9 @@ function IndonesiaOffline() {
                   </label>
                   <label>
                     <p>
-                      Please write your complete address (Street Name, House Number, RT&RW, District, Regency, City, Province, Postal Code)
+                      Please write your complete address (Street Name, House
+                      Number, RT&RW, District, Regency, City, Province, Postal
+                      Code)
                     </p>
                   </label>
                   <textarea
@@ -553,7 +602,9 @@ function IndonesiaOffline() {
                     <option value="GLOCOLIS Website">GLOCOLIS Website</option>
                     <option value="IYSA Website">IYSA Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
-                    <option value="GLOCOLIS Instagram">GLOCOLIS Instagram</option>
+                    <option value="GLOCOLIS Instagram">
+                      GLOCOLIS Instagram
+                    </option>
                     <option value="Supervisor/School">Supervisor/School</option>
                     <option value="IYSA Facebook">IYSA Facebook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
@@ -565,7 +616,9 @@ function IndonesiaOffline() {
                 </div>
                 <div className="input-box">
                   <label htmlFor="FILE" className="form-label">
-                    If you received free registration from a previous event or previous school visit activity, please attach supporting documentation
+                    If you received free registration from a previous event or
+                    previous school visit activity, please attach supporting
+                    documentation
                   </label>
                   <input
                     type="url"

@@ -680,17 +680,17 @@ export default function InternationalOnline() {
                     <option value="">
                       --Select the Source of Information--
                     </option>
+                    <option value="GLOCOLIS Website">GLOCOLIS Website</option>
+                    <option value="IYSA Website">IYSA Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
                     <option value="GLOCOLIS Instagram">GLOCOLIS Instagram</option>
                     <option value="Supervisor/School">Supervisor/School</option>
                     <option value="IYSA Facebook">IYSA Facebook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
-                    <option value="IYSA Website">IYSA Website</option>
-                    <option value="GLOCOLIS Website">GLOCOLIS Website</option>
                     <option value="IYSA Email">IYSA Email</option>
                     <option value="GLOCOLIS Email">GLOCOLIS Email</option>
                     <option value="Previous Event">Previous Event</option>
-                    <option value="Others">Lainnya</option>
+                    <option value="Others">Others</option>
                   </select>
                 </div>
               </div>
