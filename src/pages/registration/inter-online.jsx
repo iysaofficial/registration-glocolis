@@ -581,6 +581,7 @@ export default function InternationalOnline() {
                     <option value="Biotechnology">Biotechnology</option>
                     <option value="Food Science and Nutrition">Food Science and Nutrition</option>
                     <option value="Pharmacy">Pharmacy</option>
+                    <option value="Health & Medicine">Health & Medicine</option>
                   </select>
                 </div>
                 <div class="input-box ">
