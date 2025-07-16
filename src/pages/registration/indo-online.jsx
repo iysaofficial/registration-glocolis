@@ -120,7 +120,7 @@ function IndonesiaOnline() {
         form.reset();
         setTimeout(() => {
           navigate.push(
-            `/registration/thankyouindo?namaLengkap=${encodeURIComponent(
+            `/registration/thankyouinter?namaLengkap=${encodeURIComponent(
               selectedMaxNamaLengkap
             )}
               &projectTitle=${encodeURIComponent(selectedMaxProject)}
