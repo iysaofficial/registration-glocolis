@@ -542,6 +542,7 @@ function IndonesiaOnline() {
                       Food Science and Nutrition
                     </option>
                     <option value="Pharmacy">Pharmacy</option>
+                    <option value="Health & Medicine">Health & Medicine</option>
                   </select>
                 </div>
 
