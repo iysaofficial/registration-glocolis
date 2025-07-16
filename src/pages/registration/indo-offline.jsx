@@ -522,6 +522,7 @@ function IndonesiaOffline() {
                       Food Science and Nutrition
                     </option>
                     <option value="Pharmacy">Pharmacy</option>
+                    <option value="health & medicine">health & medicine</option>
                   </select>
                 </div>
                 <div className="input-box">
