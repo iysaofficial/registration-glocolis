@@ -51,18 +51,18 @@ function HomeInter() {
             <a
               className="btn btn-regist text-center me-lg-5"
               onClick={() =>
-                handleOpenModal("/registration/inter-online", internationalOnlineTerms)
+                handleOpenModal("#", internationalOnlineTerms)
               }
             >
-              Online Competition <i className="fa-solid fa-earth-americas"></i>
+              Close Registration <i className="fa-solid fa-earth-americas"></i>
             </a>
             <a
               className="btn btn-regist text-center me-lg-5"
               onClick={() =>
-                handleOpenModal("/registration/inter-offline", internationalOfflineTerms)
+                handleOpenModal("#", internationalOfflineTerms)
               }
             >
-              Offline Competition <i className="fa-solid fa-earth-americas"></i>
+              Close Registration <i className="fa-solid fa-earth-americas"></i>
             </a>
           </div>
         </div>

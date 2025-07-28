@@ -49,18 +49,18 @@ function HomeIndo() {
               className="btn btn-regist text-center me-lg-5 "
               onClick={() =>
                 handleOpenModal(
-                  "/registration/indo-online",
+                  "#",
                   indonesiaOnlineTerms
                 )
               }
             >
-              Online Competition <i className="fa-solid fa-earth-americas"></i>
+              Close registration <i className="fa-solid fa-earth-americas"></i>
             </a>
             <a
               className="btn btn-regist text-center me-lg-5 "
-              onClick={() => handleOpenModal("/registration/indo-offline", indonesiaOfflineTerms)}
+              onClick={() => handleOpenModal("#", indonesiaOfflineTerms)}
             >
-              Offline Competition <i className="fa-solid fa-earth-americas"></i>
+              Close registration <i className="fa-solid fa-earth-americas"></i>
             </a>
           </div>
         </div>
