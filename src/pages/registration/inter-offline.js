@@ -66,7 +66,7 @@ export default function InternationalOffline() {
     }
   }, [router]);
 
-  const scriptURL = "https://script.google.com/macros/s/AKfycbzaOXtdtA72FmJ3916YAnsY9XnW8jQJssLQ20WOPaYKg29vvyyI6MzuBBXb4v9XtO4E/exec";
+  const scriptURL = "https://script.google.com/macros/s/AKfycbzQCu95Wp4rGILcOmiCCsxmJ-_4QJ02Xdziqn84S9jvXDSL30oO3V-z8CGK8Ik4ND6z/exec";
 
   useEffect(() => {
     fetch("https://restcountries.com/v3.1/all?fields=name,idd")
@@ -182,7 +182,7 @@ export default function InternationalOffline() {
             <br />
             <br />
             <h4>
-              HELLO IYBC 2026 PARTICIPANTS, Please consider the following
+              HELLO GLOCOLIS 2026 PARTICIPANTS, Please consider the following
               information before filling out the registration form :
             </h4>
             <br />
@@ -434,11 +434,8 @@ export default function InternationalOffline() {
                   >
                     <option value="">--Choose Your Grade--</option>
                     <option value="Elementary">Elementary</option>
-                    <option value="Junior High School">
-                      Junior High School
-                    </option>
-                    <option value="Senior High School">
-                      Senior High School
+                    <option value="Secondary">
+                      Secondary
                     </option>
                     <option value="University">University</option>
                   </select>
@@ -551,20 +548,13 @@ export default function InternationalOffline() {
                     required
                   >
                     <option value="">--Choose Category--</option>
-                    <option value="Economic Research">Economic Research</option>
-                    <option value="Bank and Financial Management">
-                      Bank and Financial Management
-                    </option>
-                    <option value="Business Informatics">
-                      Business Informatics
-                    </option>
-                    <option value="Entrepreneurship">Entrepreneurship</option>
-                    <option value="International Business">
-                      International Business
-                    </option>
-                    <option value="Management and Marketing">
-                      Management and Marketing
-                    </option>
+                    <option value="Bioinformatics">Bioinformatics</option>
+                    <option value="Biomedicine">Biomedicine</option>
+                    <option value="Food Technology">Food Technology</option>
+                    <option value="Biotechnology">Biotechnology</option>
+                    <option value="Food Science and Nutrition">Food Science and Nutrition</option>
+                    <option value="Pharmacy">Pharmacy</option>
+                    <option value="Health & Medicine">Health & Medicine</option>
                   </select>
                 </div>
                 <div class="input-box">
@@ -635,7 +625,7 @@ export default function InternationalOffline() {
 
                 <div class="input-box">
                   <label for="INFORMATION_RESOURCES" class="form-label">
-                    IYBC 2026 Competition Information Resources
+                    GLOCOLIS 2026 Competition Information Resources
                   </label>
                   <select
                     type="text"
@@ -648,15 +638,15 @@ export default function InternationalOffline() {
                     <option value="">
                       --Select the Source of Information--
                     </option>
-                    <option value="IYBC Website">IYBC Website</option>
+                    <option value="GLOCOLIS Website">GLOCOLIS Website</option>
                     <option value="IYSA Website">IYSA Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
-                    <option value="IYBC Instagram">IYBC Instagram</option>
+                    <option value="GLOCOLIS Instagram">GLOCOLIS Instagram</option>
                     <option value="Supervisor/School">Supervisor/School</option>
                     <option value="IYSA FaceBook">IYSA FaceBook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
                     <option value="IYSA Email">IYSA Email</option>
-                    <option value="IYBC Email">IYBC Email</option>
+                    <option value="GLOCOLIS Email">GLOCOLIS Email</option>
                     <option value="Previous Event">Previous Event</option>
                     <option value="Others">Lainnya</option>
                   </select>

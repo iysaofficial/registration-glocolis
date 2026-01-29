@@ -61,7 +61,7 @@ function IndonesiaOnline() {
     }
   }, [router]);
 
-  const scriptURL = "https://script.google.com/macros/s/AKfycbyv-0MxRsC_eM-6mrFHb8Oq2VvMybNJoHqkcm7rtKSXevpvYZx5NmhGBU2Mmqg66F4x/exec";
+  const scriptURL = "https://script.google.com/macros/s/AKfycbygCfDhim8bdPHLZeeJamhbY5sNSefHvEaRLYQ9YaWT-wKadS4SWVJEK3Pes3N1yUDQZQ/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -148,7 +148,7 @@ function IndonesiaOnline() {
             <br />
             <br />
             <h4>
-              HELLO IYBC 2026 PARTICIPANTS, PLEASE PAY ATTENTION TO THE FOLLOWING INFORMATION BEFORE FILLING OUT THE REGISTRATION FORM:
+              HELLO GLOCOLIS 2026 PARTICIPANTS, PLEASE PAY ATTENTION TO THE FOLLOWING INFORMATION BEFORE FILLING OUT THE REGISTRATION FORM:
             </h4>
             <br />
             <p>
@@ -384,15 +384,12 @@ function IndonesiaOnline() {
                     placeholder="Choose Grade"
                     required
                   >
-                    <option value="">--Choose Your Education Level--</option>
-                    <option value="Sekolah Dasar">Elementary School</option>
-                    <option value="Sekolah Menengah Pertama">
-                      Junior High School
+                     <option value="">--Choose Your Grade--</option>
+                    <option value="Elementary">Elementary</option>
+                    <option value="Secondary">
+                      Secondary
                     </option>
-                    <option value="Sekolah Menengah Atas">
-                      Senior High School
-                    </option>
-                    <option value="Universitas">University</option>
+                    <option value="University">University</option>
                   </select>
                 </div>
                 <div className="input-box">
@@ -516,20 +513,13 @@ function IndonesiaOnline() {
                     required
                   >
                     <option value="">--Choose Category--</option>
-                    <option value="Economic Research">Economic Research</option>
-                    <option value="Bank and Financial Management">
-                      Bank and Financial Management
-                    </option>
-                    <option value="Business Informatics">
-                      Business Informatics
-                    </option>
-                    <option value="Entrepreneurship">Entrepreneurship</option>
-                    <option value="International Business">
-                      International Business
-                    </option>
-                    <option value="Management and Marketing">
-                      Management and Marketing
-                    </option>
+                    <option value="Bioinformatics">Bioinformatics</option>
+                    <option value="Biomedicine">Biomedicine</option>
+                    <option value="Food Technology">Food Technology</option>
+                    <option value="Biotechnology">Biotechnology</option>
+                    <option value="Food Science and Nutrition">Food Science and Nutrition</option>
+                    <option value="Pharmacy">Pharmacy</option>
+                    <option value="Health & Medicine">Health & Medicine</option>
                   </select>
                 </div>
 
@@ -613,7 +603,7 @@ function IndonesiaOnline() {
                 </div>
                 <div className="input-box">
                   <label for="INFORMATION_RESOURCES" className="form-label">
-                    Information Resources for IYBC 2026
+                    Information Resources for GLOCOLIS 2026
                   </label>
                   <select
                     type="text"
@@ -625,14 +615,14 @@ function IndonesiaOnline() {
                   >
                     <option value="">--Choose Information Resources--</option>
                     <option value="IYSA Website">IYSA Website</option>
-                    <option value="IYBC Website">IYBC Website</option>
+                    <option value="GLOCOLIS Website">GLOCOLIS Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
-                    <option value="IYBC Instagram">IYBC Instagram</option>
+                    <option value="GLOCOLIS Instagram">GLOCOLIS Instagram</option>
                     <option value="Pembimbing/Sekolah">Supervisor/School</option>
                     <option value="IYSA FaceBook">IYSA Facebook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
                     <option value="IYSA Email">IYSA Email</option>
-                    <option value="IYBC Email">IYBC Email</option>
+                    <option value="GLOCOLIS Email">GLOCOLIS Email</option>
                     <option value="Acara Sebelumnya">Previous Event</option>
                     <option value="Lainnya">Other</option>
                   </select>

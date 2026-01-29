@@ -42,7 +42,7 @@ function HomeInter() {
                 REGISTRATION FORM FOR INTERNATIONAL PARTICIPANTS
               </h1>
               <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
-                Choose Categories Competition for Registration IYBC 2026
+                Choose Categories Competition for Registration GLOCOLIS 2026
               </h3>
             </div>
           </div>
