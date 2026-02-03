@@ -390,7 +390,7 @@ function IndonesiaOnline() {
                       Secondary
                     </option>
                     <option value="University">University</option>
-                    <option value="Public">Public</option>
+                    <option value="Public">Public (Teachers, Lecturers, Researchers)</option>
                   </select>
                 </div>
                 <div className="input-box">

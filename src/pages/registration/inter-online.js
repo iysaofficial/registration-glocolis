@@ -445,7 +445,7 @@ export default function InternationalOnline() {
                       Secondary
                     </option>
                     <option value="University">University</option>
-                    <option value="Public">Public</option>
+                    <option value="Public">Public (Teachers, Lecturers, Researchers)</option>
                   </select>
                 </div>
                 <div class="input-box">
