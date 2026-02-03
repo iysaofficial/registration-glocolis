@@ -154,7 +154,7 @@ function IndonesiaOffline() {
               1. Please fill in the required data correctly and ensure there are no writing errors. Also, make sure the data submitted is final and has not been changed.
             </p>
             <p>
-              2. After ensuring the data is correct, you can click the <span className="fw-bold"> &quot;SEND&quot;</span> button only once. If the data has been successfully submitted, you will be redirected to another page.
+              2. After ensuring the data is correct, you can click the <span className="fw-bold"> &quot;SUBMIT&quot;</span> button only once. If the data has been successfully submitted, you will be redirected to another page.
             </p>
             <p>
               3. A will be an email informing you that your registration has been accepted which will be sent to the team leader's email address, and the documents will be validated by our team. Please be patient and wait for a maximum of 3 days after the registration deadline, and the Letter of Acceptance (LOA) will be sent to the team leader's email address.
