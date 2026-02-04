@@ -95,7 +95,7 @@ function HomeIndo() {
                   />
                   {showTooltip && (
                     <div className="custom-tooltip">
-                      Please view the Terms & Conditions first
+                      Please view the link Terms & Conditions first
                     </div>
                   )}
                 </div>
