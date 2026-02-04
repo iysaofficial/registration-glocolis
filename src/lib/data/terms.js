@@ -6,6 +6,9 @@ export const indonesiaOnlineTerms = (
     {/* <h1 className="">Peserta Online:</h1> */}
     <ul>
       <li>
+        Please be advised that all data submitted by participants cannot be modified after the payment deadline has passed. In this regard participants are required to carefully review their Letter of Acceptance (LoA) and registration information upon submission to ensure the accuracy, completeness, and correctness of all details provided.
+      </li>
+      <li>
         Please be advised that all data submitted by participants cannot be modified after the payment deadline. Therefore, participants are required to carefully review their Letter of Acceptance (LoA) and registration information prior to submission to ensure that all details provided are accurate, complete, and correct.
       </li>
       <li>
@@ -34,6 +37,9 @@ export const indonesiaOfflineTerms = (
       Before proceeding, please read and agree to the following terms and conditions for Offline Participants:
     </h5>
     <ul>
+      <li>
+        Please be advised that all data submitted by participants cannot be modified after the payment deadline has passed. In this regard participants are required to carefully review their Letter of Acceptance (LoA) and registration information upon submission to ensure the accuracy, completeness, and correctness of all details provided.
+      </li>
       <li>
         Please be advised that all data submitted by participants cannot be modified after the payment deadline. Therefore, participants are required to carefully review their Letter of Acceptance (LoA) and registration information prior to submission to ensure that all details provided are accurate, complete, and correct.
       </li>
@@ -73,6 +79,9 @@ export const internationalOnlineTerms = (
   <>
     <h3 className="text-2xl">Online Participants:</h3>
     <li>
+      Please be advised that all data submitted by participants cannot be modified after the payment deadline has passed. In this regard participants are required to carefully review their Letter of Acceptance (LoA) and registration information upon submission to ensure the accuracy, completeness, and correctness of all details provided.
+    </li>
+    <li>
       Please be advised that all data submitted by participants cannot be modified after the payment deadline. Therefore, participants are required to carefully review their Letter of Acceptance (LoA) and registration information prior to submission to ensure that all details provided are accurate, complete, and correct.
     </li>
     <li>
@@ -95,6 +104,9 @@ export const internationalOnlineTerms = (
 export const internationalOfflineTerms = (
   <>
     <h3 className="text-2xl">Offline Participants:</h3>
+    <li>
+      Please be advised that all data submitted by participants cannot be modified after the payment deadline has passed. In this regard participants are required to carefully review their Letter of Acceptance (LoA) and registration information upon submission to ensure the accuracy, completeness, and correctness of all details provided.
+    </li>
     <li>
       Please be advised that all data submitted by participants cannot be modified after the payment deadline. Therefore, participants are required to carefully review their Letter of Acceptance (LoA) and registration information prior to submission to ensure that all details provided are accurate, complete, and correct.
     </li>
