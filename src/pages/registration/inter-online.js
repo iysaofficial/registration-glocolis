@@ -47,13 +47,13 @@ export default function InternationalOnline() {
 
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
-      case "International Youth Business Competition - Online Competition":
+      case "Global Competition for Life Science - Online Competition":
         setCategoryPrice("$105 USD");
         break;
-      case "International Youth Business Competition - Online Competition + Certificate and Medal (SOUTH EAST ASIA ONLY)":
+      case "Global Competition for Life Science - Online Competition + Certificate and Medal (SOUTH EAST ASIA ONLY)":
         setCategoryPrice("$225 USD");
         break;
-      case "International Youth Business Competition - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)":
+      case "Global Competition for Life Science - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)":
         setCategoryPrice("$275 USD");
         break;
       default:
@@ -279,14 +279,14 @@ export default function InternationalOnline() {
                     onChange={handleCategoryChange}
                   >
                     <option value="">--Choose Category Competition--</option>
-                    <option value="International Youth Business Competition - Online Competition">
+                    <option value="Global Competition for Life Science - Online Competition">
                       Online Competition
                     </option>
-                    <option value="International Youth Business Competition - Online Competition + Certificate and Medal (SOUTH EAST ASIA ONLY)">
+                    <option value="Global Competition for Life Science - Online Competition + Certificate and Medal (SOUTH EAST ASIA ONLY)">
                       Online Competition + Certificate and Medal (SOUTH EAST
                       ASIA)
                     </option>
-                    <option value="International Youth Business Competition - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)">
+                    <option value="Global Competition for Life Science - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)">
                       Online Competition + Certificate and Medal (Exclude SOUTH
                       EAST ASIA)
                     </option>

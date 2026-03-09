@@ -44,9 +44,9 @@ function IndonesiaOffline() {
 
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
-      case "International Youth Business Competition - Offline Competition":
+      case "Global Competition for Life Science - Offline Competition":
         break;
-      case "International Youth Business Competition - Offline Competition + Excursion":
+      case "Global Competition for Life Science - Offline Competition + Excursion":
         break;
       default:
         break;
@@ -222,10 +222,10 @@ function IndonesiaOffline() {
                     required
                   >
                     <option value="">--Choose Competition Category--</option>
-                    <option value="International Youth Business Competition - Offline Competition">
+                    <option value="Global Competition for Life Science - Offline Competition">
                       Offline Competition
                     </option>
-                    <option value="International Youth Business Competition - Offline Competition + Excursion">
+                    <option value="Global Competition for Life Science - Offline Competition + Excursion">
                       Offline Competition + Excursion
                     </option>
                   </select>
