@@ -10,6 +10,7 @@ function IndonesiaOffline() {
   const maxSchoolChars = 500; // batasan maksimal karakter
   const maxProjectChars = 160; // batasan maksimal karakter
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [categoryPrice, setCategoryPrice] = useState("");
   const [statusMessage, setStatusMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
@@ -45,8 +46,7 @@ function IndonesiaOffline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "Global Competition for Life Science - Offline Competition":
-        break;
-      case "Global Competition for Life Science - Offline Competition + Excursion":
+        setCategoryPrice("Rp. 3.150.000");
         break;
       default:
         break;
@@ -113,6 +113,7 @@ function IndonesiaOffline() {
           namaLengkap: selectedMaxNamaLengkap,
           projectTitle: selectedMaxProject,
           category: selectedCategory,
+          categoryPrice: categoryPrice,
           namasekolah: selectedNamaSekolah,
         };
 
@@ -559,11 +560,28 @@ function IndonesiaOffline() {
                     id="JUDUL_PERNAH_BERPATISIPASI"
                     name="JUDUL_PERNAH_BERPATISIPASI"
                     className="form-control"
+                    value={selectedMaxProject}
+                    onChange={handleInputProjectChange}
                     placeholder="Input the Competition Name"
                   ></textarea>
                   <div className="mt-5" id="form_alerts"></div>
                 </div>
               </div>
+              {/* Kolom Harga */}
+                <div className="input-box invisible">
+                  <label htmlFor="CATEGORY_PRICE" className="form-label ">
+                    Registration Price
+                  </label>
+                  <input
+                    type="text"
+                    id="CATEGORY_PRICE"
+                    name="CATEGORY_PRICE"
+                    className="form-control"
+                    value={categoryPrice}
+                    readOnly
+                    placeholder="Fee will appear based on the selected category"
+                  />
+                </div>
               {/* DETAIL PROJECT END */}
               {/* DETAIL PROJECT END */}
 
@@ -591,6 +609,7 @@ function IndonesiaOffline() {
                     id="COMPLETE_ADDRESS"
                     name="COMPLETE_ADDRESS"
                     className="form-control"
+
                     placeholder="Input your Complete Address"
                     required
                   ></textarea>
