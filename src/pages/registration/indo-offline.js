@@ -225,9 +225,9 @@ function IndonesiaOffline() {
                     <option value="Global Competition for Life Science - Offline Competition">
                       Offline Competition
                     </option>
-                    <option value="Global Competition for Life Science - Offline Competition + Excursion">
+                    {/* <option value="Global Competition for Life Science - Offline Competition + Excursion">
                       Offline Competition + Excursion
-                    </option>
+                    </option> */}
                   </select>
                 </div>
               </div>
