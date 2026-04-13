@@ -48,8 +48,10 @@ export default function InternationalOffline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "Global Competition for Life Science - Offline Competition":
+        setCategoryPrice("$400 USD");
         break;
       case "Global Competition for Life Science - Offline Competition + Full Package":
+        setCategoryPrice("$725 USD");
         break;
       default:
         setCategoryPrice("");
@@ -66,7 +68,8 @@ export default function InternationalOffline() {
     }
   }, [router]);
 
-  const scriptURL = "https://script.google.com/macros/s/AKfycbzQCu95Wp4rGILcOmiCCsxmJ-_4QJ02Xdziqn84S9jvXDSL30oO3V-z8CGK8Ik4ND6z/exec";
+  const scriptURL =
+    "https://script.google.com/macros/s/AKfycbzQCu95Wp4rGILcOmiCCsxmJ-_4QJ02Xdziqn84S9jvXDSL30oO3V-z8CGK8Ik4ND6z/exec";
 
   useEffect(() => {
     fetch("https://restcountries.com/v3.1/all?fields=name,idd")
@@ -76,7 +79,7 @@ export default function InternationalOffline() {
           const codes = data
             .filter(
               (country) =>
-                country.idd && country.idd.root && country.idd.suffixes
+                country.idd && country.idd.root && country.idd.suffixes,
             )
             .map((country) => ({
               name: country.name.common,
@@ -155,11 +158,11 @@ export default function InternationalOffline() {
         setTimeout(() => {
           router.push(
             `/registration/thankyouinter?namaLengkap=${encodeURIComponent(
-              selectedMaxNamaLengkap
+              selectedMaxNamaLengkap,
             )}
             &projectTitle=${encodeURIComponent(selectedMaxProject)}
             &category=${encodeURIComponent(selectedCategory)}
-            &namasekolah=${encodeURIComponent(selectedNamaSekolah)}`
+            &namasekolah=${encodeURIComponent(selectedNamaSekolah)}`,
           );
         }, 1000);
       } else {
@@ -230,8 +233,8 @@ export default function InternationalOffline() {
                       {isLoading
                         ? "Submitting..."
                         : canClick
-                        ? "Continue"
-                        : `Please wait... ${countdown}`}
+                          ? "Continue"
+                          : `Please wait... ${countdown}`}
                     </button>
                   </div>
                 </div>
@@ -348,10 +351,15 @@ export default function InternationalOffline() {
                   >
                     <option value="">--Choose Phone Code--</option>
                     {phoneCodesLoading ? (
-                      <option value="" disabled>Loading...</option>
+                      <option value="" disabled>
+                        Loading...
+                      </option>
                     ) : (
                       phoneCodes.map((country) => (
-                        <option key={country.name} value={`${country.name} ${country.code}`}>
+                        <option
+                          key={country.name}
+                          value={`${country.name} ${country.code}`}
+                        >
                           {country.name} {country.code}
                         </option>
                       ))
@@ -434,11 +442,11 @@ export default function InternationalOffline() {
                   >
                     <option value="">--Choose Your Grade--</option>
                     <option value="Elementary">Elementary</option>
-                    <option value="Secondary">
-                      Secondary
-                    </option>
+                    <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
-                    <option value="Public">Public (Teachers, Lecturers, Researchers)</option>
+                    <option value="Public">
+                      Public (Teachers, Lecturers, Researchers)
+                    </option>
                   </select>
                 </div>
                 <div class="input-box">
@@ -553,7 +561,9 @@ export default function InternationalOffline() {
                     <option value="Biomedicine">Biomedicine</option>
                     <option value="Food Technology">Food Technology</option>
                     <option value="Biotechnology">Biotechnology</option>
-                    <option value="Food Science and Nutrition">Food Science and Nutrition</option>
+                    <option value="Food Science and Nutrition">
+                      Food Science and Nutrition
+                    </option>
                     <option value="Pharmacy">Pharmacy</option>
                     <option value="Health & Medicine">Health & Medicine</option>
                   </select>
@@ -642,7 +652,9 @@ export default function InternationalOffline() {
                     <option value="GLOCOLIS Website">GLOCOLIS Website</option>
                     <option value="IYSA Website">IYSA Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
-                    <option value="GLOCOLIS Instagram">GLOCOLIS Instagram</option>
+                    <option value="GLOCOLIS Instagram">
+                      GLOCOLIS Instagram
+                    </option>
                     <option value="Supervisor/School">Supervisor/School</option>
                     <option value="IYSA FaceBook">IYSA FaceBook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
