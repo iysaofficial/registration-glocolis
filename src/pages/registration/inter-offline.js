@@ -666,7 +666,7 @@ export default function InternationalOffline() {
                 </div>
               </div>
               <div class="button">
-                <input type="submit" value="submit" />
+                <input type="submit" value="Submit Form" />
               </div>
             </form>
 

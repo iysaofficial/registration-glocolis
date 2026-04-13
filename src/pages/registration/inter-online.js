@@ -62,7 +62,7 @@ export default function InternationalOnline() {
     }
   };
 
-  useEffect(() => { 
+  useEffect(() => {
     const termsAccepted = sessionStorage.getItem("termsAccepted");
 
     if (!termsAccepted) {
@@ -71,7 +71,8 @@ export default function InternationalOnline() {
     }
   }, [router]);
 
-  const scriptURL = "https://script.google.com/macros/s/AKfycby45Ey3uMVGxT7j4iEvbLNZ1vY4c9FIDMwuyzwL6r4P3MSaddh1rpMvP2Vg3fgu7U3bQw/exec";
+  const scriptURL =
+    "https://script.google.com/macros/s/AKfycby45Ey3uMVGxT7j4iEvbLNZ1vY4c9FIDMwuyzwL6r4P3MSaddh1rpMvP2Vg3fgu7U3bQw/exec";
 
   useEffect(() => {
     fetch("https://restcountries.com/v3.1/all?fields=name,idd")
@@ -81,7 +82,7 @@ export default function InternationalOnline() {
           const codes = data
             .filter(
               (country) =>
-                country.idd && country.idd.root && country.idd.suffixes
+                country.idd && country.idd.root && country.idd.suffixes,
             )
             .map((country) => ({
               name: country.name.common,
@@ -160,11 +161,11 @@ export default function InternationalOnline() {
         setTimeout(() => {
           router.push(
             `/registration/thankyouinter?namaLengkap=${encodeURIComponent(
-              selectedMaxNamaLengkap
+              selectedMaxNamaLengkap,
             )}
             &projectTitle=${encodeURIComponent(selectedMaxProject)}
             &category=${encodeURIComponent(selectedCategory)}
-            &namasekolah=${encodeURIComponent(selectedNamaSekolah)}`
+            &namasekolah=${encodeURIComponent(selectedNamaSekolah)}`,
           );
         }, 1000);
       } else {
@@ -235,8 +236,8 @@ export default function InternationalOnline() {
                       {isLoading
                         ? "Submitting..."
                         : canClick
-                        ? "Continue"
-                        : `Please wait... ${countdown}`}
+                          ? "Continue"
+                          : `Please wait... ${countdown}`}
                     </button>
                   </div>
                 </div>
@@ -355,10 +356,15 @@ export default function InternationalOnline() {
                   >
                     <option value="">--Choose Phone Code--</option>
                     {phoneCodesLoading ? (
-                      <option value="" disabled>Loading...</option>
+                      <option value="" disabled>
+                        Loading...
+                      </option>
                     ) : (
                       phoneCodes.map((country) => (
-                        <option key={country.name} value={`${country.name} ${country.code}`}>
+                        <option
+                          key={country.name}
+                          value={`${country.name} ${country.code}`}
+                        >
                           {country.name} {country.code}
                         </option>
                       ))
@@ -441,11 +447,11 @@ export default function InternationalOnline() {
                   >
                     <option value="">--Choose Your Grade--</option>
                     <option value="Elementary">Elementary</option>
-                    <option value="Secondary">
-                      Secondary
-                    </option>
+                    <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
-                    <option value="Public">Public (Teachers, Lecturers, Researchers)</option>
+                    <option value="Public">
+                      Public (Teachers, Lecturers, Researchers)
+                    </option>
                   </select>
                 </div>
                 <div class="input-box">
@@ -559,7 +565,9 @@ export default function InternationalOnline() {
                     <option value="Biomedicine">Biomedicine</option>
                     <option value="Food Technology">Food Technology</option>
                     <option value="Biotechnology">Biotechnology</option>
-                    <option value="Food Science and Nutrition">Food Science and Nutrition</option>
+                    <option value="Food Science and Nutrition">
+                      Food Science and Nutrition
+                    </option>
                     <option value="Pharmacy">Pharmacy</option>
                     <option value="Health & Medicine">Health & Medicine</option>
                   </select>
@@ -664,7 +672,9 @@ export default function InternationalOnline() {
                     <option value="IYSA Website">IYSA Website</option>
                     <option value="GLOCOLIS Website">GLOCOLIS Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
-                    <option value="GLOCOLIS Instagram">GLOCOLIS Instagram</option>
+                    <option value="GLOCOLIS Instagram">
+                      GLOCOLIS Instagram
+                    </option>
                     <option value="Supervisor/School">Supervisor/School</option>
                     <option value="IYSA FaceBook">IYSA FaceBook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
@@ -676,7 +686,7 @@ export default function InternationalOnline() {
                 </div>
               </div>
               <div class="button">
-                <input type="submit" value="submit" />
+                <input type="submit" value="Submit Form" />
               </div>
             </form>
 
